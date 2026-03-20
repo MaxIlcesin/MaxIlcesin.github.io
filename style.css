@@ -49,12 +49,14 @@ height:83px;
 
 .gjs-t-h1.display-name,
 #izdyn{
-font-size:30px;
-line-height:1.1;
+font-size:28px;
+line-height:1;
+white-space:nowrap;
 }
 
 .name-block{
 max-width:none;
+min-width:0;
 }
 }
 
