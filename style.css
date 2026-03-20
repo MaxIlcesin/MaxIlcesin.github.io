@@ -28,33 +28,33 @@ align-items:center;
 }
 
 .avatar-image{
-width:6.5rem;
-height:6.5rem;
+width:7.475rem;
+height:7.475rem;
 }
 
 .display-name{
-font-size:2.15rem;
+font-size:2.4725rem;
 line-height:1.05;
 }
 
 .name-block{
-max-width:9rem;
+max-width:none;
 }
 
 @media (max-width: 480px){
 .avatar-image{
-width:72px;
-height:72px;
+width:83px;
+height:83px;
 }
 
 .gjs-t-h1.display-name,
 #izdyn{
-font-size:26px;
+font-size:30px;
 line-height:1.1;
 }
 
 .name-block{
-max-width:8rem;
+max-width:none;
 }
 }
 
