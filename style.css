@@ -146,18 +146,14 @@ a {
   height: 142px;
   margin: 0 auto 18px;
   padding: 6px;
-  border: 1px solid var(--border-strong);
+  border: 1px dashed rgba(255, 255, 255, 0.18);
   border-radius: 18px;
   background: #10151b;
   box-shadow: var(--shadow-md);
 }
 
 .portrait-ring::after {
-  content: "";
-  position: absolute;
-  inset: -6px;
-  border: 1px dashed rgba(255, 255, 255, 0.12);
-  border-radius: 20px;
+  content: none;
 }
 
 .avatar-image {
