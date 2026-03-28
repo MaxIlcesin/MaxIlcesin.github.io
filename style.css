@@ -155,9 +155,9 @@ a {
 .portrait-ring::after {
   content: "";
   position: absolute;
-  inset: -10px;
+  inset: -6px;
   border: 1px dashed rgba(255, 255, 255, 0.12);
-  border-radius: 24px;
+  border-radius: 20px;
 }
 
 .avatar-image {
@@ -243,8 +243,8 @@ a {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 14px;
+  justify-content: center;
+  gap: 10px;
   padding: 16px 18px;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -277,7 +277,6 @@ a {
 .action-copy {
   display: flex;
   align-items: center;
-  min-width: 0;
 }
 
 .action-title {
@@ -285,6 +284,7 @@ a {
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--text-main);
+  text-align: center;
 }
 
 .action-icon {
@@ -293,7 +293,6 @@ a {
   justify-content: center;
   width: 20px;
   height: 20px;
-  flex-shrink: 0;
   color: var(--accent);
 }
 
