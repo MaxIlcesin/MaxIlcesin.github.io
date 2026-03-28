@@ -111,7 +111,7 @@ a {
 }
 
 .hero-section {
-  padding: 4px 2px 24px;
+  padding: 2px 2px 18px;
   text-align: center;
 }
 
@@ -176,11 +176,11 @@ a {
 }
 
 .about-section {
-  margin-top: 2px;
+  margin-top: 0;
 }
 
 .section-heading-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .section-heading-row h2 {
@@ -205,7 +205,7 @@ a {
 .about-panel {
   display: grid;
   gap: 0;
-  padding: 18px;
+  padding: 14px 16px;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   background: var(--surface-strong);
@@ -230,13 +230,13 @@ a {
 }
 
 .role-line {
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 .actions-section {
   display: grid;
-  gap: 12px;
-  margin-top: 18px;
+  gap: 10px;
+  margin-top: 12px;
 }
 
 .action-button {
@@ -317,7 +317,7 @@ a {
   .profile-card {
     width: 100%;
     min-height: calc(100svh - 24px);
-    padding: 22px 18px 18px;
+    padding: 18px 16px 16px;
     border-radius: 28px;
   }
 
@@ -340,6 +340,6 @@ a {
   }
 
   .action-button {
-    padding: 15px 16px;
+    padding: 13px 14px;
   }
 }
